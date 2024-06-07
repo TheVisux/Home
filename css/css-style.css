@@ -2277,6 +2277,7 @@ body:after {
   /* border: 5px solid #ffffffad; */
   /* border-radius: 51px; */
   /* padding: 60px; */
+  left: 170px;
 }
 
 .pricing-card {
@@ -2383,6 +2384,6 @@ body:after {
   height: 45rem;
 } */
 
-*, ::after, ::before{
+/* *, ::after, ::before{
   box-sizing: border-box;
-}
+} */
