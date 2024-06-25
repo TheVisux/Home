@@ -2266,6 +2266,7 @@ body:after {
       -ms-transform: rotate(-180deg);
       transform: rotate(-180deg); }
 
+/* there is a problem in below portion that is causing the irregular behaviour */
 .site-section{
   background-color: #100028;
 }
@@ -2279,7 +2280,7 @@ body:after {
   /* border: 5px solid #ffffffad; */
   /* border-radius: 51px; */
   /* padding: 60px; */
-  left: 170px;
+  /* left: 170px; */
 }
 
 .pricing-card {
@@ -2579,5 +2580,8 @@ height: 426px;
 .chatbot_iframe{
 width: 108%;
 height: 119%;
+}
+.pricing-table {
+  left: 170px;
 }
 }
