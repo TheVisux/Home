@@ -420,7 +420,8 @@ pre code {
     -ms-flex-positive: 1;
     flex-grow: 1;
     min-width: 0;
-    max-width: 100%
+    max-width: 100%;
+    margin-top: 30px;
 }
 
 @media (min-width: 576px) {
