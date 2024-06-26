@@ -2405,7 +2405,7 @@ body:after {
   z-index: 999;
 }
 .chatbot-toggler {
-  z-index: 909;
+  z-index: 9999;
   position: fixed;
   right: 20px;
   bottom: 50px;
