@@ -542,29 +542,7 @@
     const closeBtn = document.querySelector(".close-btn");
     
     closeBtn.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
-    chatbotToggler.addEventListener("click", () => { 
-      document.body.classList.toggle("show-chatbot");
-      if (document.body.classList.contains("show-chatbot")) {
-        toggleFullScreen();
-        setTimeout(() => {
-      window.scrollTo(0, 1);
-    }, 100);
-    document.documentElement.style.overflow = "hidden";
-    document.documentElement.style.width = "100%";
-    document.body.style.height = "100%";
-    document.body.style.position = "fixed";
-    document.body.style.overflowY = "scroll";
-    document.body.style.webkitOverflowScrolling = "touch";
-  } else {
-    document.documentElement.style.overflow = "";
-    document.documentElement.style.width = "";
-    document.body.style.height = "";
-    document.body.style.position = "";
-    document.body.style.overflowY = "";
-    document.body.style.webkitOverflowScrolling = "";
-    window.scrollTo(0, window.scrollY);
-  }
-    });
+    chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
         </script>
 
         <footer class="footer">
