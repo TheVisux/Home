@@ -542,7 +542,12 @@
     const closeBtn = document.querySelector(".close-btn");
     
     closeBtn.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
-    chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
+    chatbotToggler.addEventListener("click", () => { 
+      document.body.classList.toggle("show-chatbot");
+      if (document.body.classList.contains("show-chatbot")) {
+        window.scrollTo(0,1);
+      }
+    });
         </script>
 
         <footer class="footer">
