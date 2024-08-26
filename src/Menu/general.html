@@ -14,41 +14,62 @@
     }
 
     iframe{
-        overflow:hidden;overflow-x:hidden;overflow-y:hidden;/*height:119vh;width:108vw;*/width: 100vw;height: 100vh;position:absolute;top:0px;left:0px;right:0px;bottom:0px;/*margin-top:-3.1rem;*/margin-top: -50px;margin-right:0px;margin-left:0px;
+        overflow:hidden;overflow-x:hidden;overflow-y:hidden;position:absolute;top:0px;left:0px;right:0px;bottom:0px;margin-right:0px;margin-left:0px;
+        margin-top: -68rem;
+    height: 252vh;
+    width: 104vw;
+    }
+    .side_padding1{
+    position: fixed;left: 0;background-color: #f7f7f8;z-index: 9999;padding: 25px;height: 80%;margin-top: 0px;
     }
 
     /* Small devices (landscape phones, 576px and up) */
-    @media (min-width: 576px) {
+    @media (min-device-width: 360px){
         iframe{
-          width: 108vw;height: 90vh;margin-top: -50px;
+        margin-top: -64rem;height: 250vh;width: 102vw;
+      }
+       }
+    @media (min-device-width: 360px) and (min-device-height: 870px) {
+    iframe {
+        margin-top: -77rem;
+    }
+}
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-device-width: 576px) {
+        iframe{
+/*         margin-top: -56.5rem;height: 279vh;width: 104vw; */
+            margin-top: -664rem;height: 250vh;width: 102vw;
       }
        }
        /* Medium devices (tablets, 768px and up) */
-       @media (min-width: 768px) {
-        iframe{
-          width: 108vw;height: 90vh;margin-top: -50px;
+/*        @media (min-device-width: 768px) {
+           iframe{
+          width: 200%;
+        height: 94%;
+        margin-top: 0rem;
       }
-       }
+    } */
        /* Large devices (desktops, 992px and up) */
-       @media (min-width: 992px) {
-        iframe{
+/*        @media (min-device-width: 992px) {
+           iframe{
           width: 108vw;height: 90vh;margin-top: -50px;
       }
-       }
+    } */
        /* X-Large devices (large desktops, 1200px and up) */
-       @media (min-width: 1200px) {
-        iframe{
-          width: 108vw;height: 90vh;margin-top: -50px;
+       @media (min-device-width: 1200px) {
+           iframe{
+          width: 100vw;
+        height: 274vh;
+        margin-top: -55rem;
       }
        }
        /* XX-Large devices (larger desktops, 1400px and up) */
-       @media (min-width: 1400px) {
-        iframe{
-          width: 108vw!important;height: 119vh!important;
+       @media (min-device-width: 1400px) {
+           iframe{
+          width: 100%;height: 100%;margin-top: -56.5rem;
       }
        }
 </style>
-
 <body>
     <iframe src="https://app.humata.ai/ask/file/22700bce-234d-42ba-9905-cb5bc1f8bae4?share_link=4066e635-627f-401c-81d5-a168ac8d80f1&selected-approach=Creative" frameborder="0" target="iframe_a"></iframe>
 </body>
